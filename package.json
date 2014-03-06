@@ -1,0 +1,29 @@
+{
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "name": "barnacle-add-to",
+  "description": "",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/connrs/barnacle-add-to.git"
+  },
+  "main": "lib/barnacle-add-to.js",
+  "scripts": {
+    "test": "node_modules/tape/bin/tape test/*.js"
+  },
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    }
+  ],
+  "author": "connrs",
+  "dependencies": {
+    "barnacle-mode": "0.0.2"
+  },
+  "devDependencies": {
+    "tape": "^2.5.0"
+  }
+}
